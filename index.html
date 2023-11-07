@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        referrerpolicy="no-referrer" />
+    <title>Todo</title>
+</head>
+
+<body>
+    <div class="container">
+        <form class="todo-search">
+            <input type="text" placeholder="Add list">
+            <button type="submit" disabled>
+                <i class="fa-solid fa-plus"></i>
+            </button>
+        </form>
+
+        <div class="alert"></div>
+
+        <div class="card d-none">
+            <h5 class="card-title">
+                Todo List
+                <a href="#">
+                    Clear List
+                </a>
+            </h5>
+            <form class="list-search">
+                <input type="text" placeholder="Search todo">
+            </form>
+
+            <ul class="list-group"></ul>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
